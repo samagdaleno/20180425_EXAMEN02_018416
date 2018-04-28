@@ -1,2 +1,2 @@
-# 20180425_EXAMEN02_018416
-Este es el repositorio del examen 2
+# 20180425_EXAMEN02_018416 JUSTIFICACIÓN DE DIAGRAMA
+Se hizo uso del command pattern para delegar las diferentes tareas a traves de un invoker y hacer una interfaz para las tareas y manejarlas como comandos concretos todo usando un client; cada robot representa un diferente reciever ya que cada uno sabe como ejecutar sus propios comandos, usando sus propios parametros. Se uso la clase abstracta de Robot, ya que todos pueden realizar las mismas tareas pero de manera diferente.  
