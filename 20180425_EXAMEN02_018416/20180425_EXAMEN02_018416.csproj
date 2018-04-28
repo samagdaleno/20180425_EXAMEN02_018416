@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="Invoker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Robot.cs" />
+    <Compile Include="RobotBig.cs" />
+    <Compile Include="RobotMedium.cs" />
+    <Compile Include="RobotSmall.cs" />
+    <Compile Include="Tasks\CookCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
